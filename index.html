@@ -1,0 +1,200 @@
+
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JASPOST BY HAJI AKBAR</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- LOADING SCREEN -->
+  <div id="loader">
+    <div class="loader-content">
+      <div class="loader-logo">HA</div>
+      <h2>HAJI AKBAR</h2>
+      <p>PREMIUM JASPOST SERVICE</p>
+      <div class="loading-line">
+        <span></span>
+      </div>
+      <small>MEMUAT WEBSITE...</small>
+    </div>
+  </div>
+
+  <!-- HEADER -->
+  <header>
+    <div class="brand">
+      <div class="brand-logo">HA</div>
+      <div>
+        <h2>HAJI AKBAR</h2>
+        <small>JASPOST SERVICE</small>
+      </div>
+    </div>
+    <div class="status">
+      <span></span> ONLINE
+    </div>
+  </header>
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="hero-label">✦ PREMIUM SERVICE ✦</div>
+    <h1>JASPOST <span>HAJI AKBAR</span></h1>
+    <p>
+      Layanan jasa posting jual beli akun
+      dengan proses yang lebih tertata,
+      aman, dan transparan.
+    </p>
+    <div class="hero-buttons">
+      <a href="#form" class="primary-btn">MULAI JASPOST ↗</a>
+      <a href="#aturan" class="secondary-btn">ATURAN</a>
+    </div>
+    <div class="hero-decoration">HA</div>
+  </section>
+
+  <!-- INFORMASI -->
+  <section class="info-section">
+    <div class="info-card">
+      <div class="info-icon">✦</div>
+      <h3>JASPOST</h3>
+      <p>Layanan posting jual beli akun</p>
+    </div>
+    <div class="info-card">
+      <div class="info-icon">♧</div>
+      <h3>MC / REKBER</h3>
+      <p>Melalui Haji Akbar</p>
+    </div>
+    <div class="info-card">
+      <div class="info-icon">⌁</div>
+      <h3>ANTREAN</h3>
+      <p>Nomor antrean otomatis</p>
+    </div>
+  </section>
+
+  <!-- FORM JASPOST -->
+  <section class="form-section" id="form">
+    <div class="section-heading">
+      <span>FORMULIR RESMI</span>
+      <h2>BUAT JASPOST</h2>
+      <p>Lengkapi informasi di bawah ini.</p>
+    </div>
+
+    <div class="form-box">
+      <div class="form-top">
+        <div>
+          <h3>FORM JASPOST</h3>
+          <p>BY HAJI AKBAR</p>
+        </div>
+        <span class="form-badge">OFFICIAL</span>
+      </div>
+
+      <form id="jaspostForm">
+
+        <label>JUAL / BELI</label>
+        <select id="jualBeli" required>
+          <option value="">Pilih transaksi</option>
+          <option>JUAL AKUN</option>
+          <option>BELI AKUN</option>
+        </select>
+
+        <label>AKUN</label>
+        <input id="akun" type="text"
+          placeholder="Nama akun / game" required>
+
+        <label>SPEK</label>
+        <textarea id="spek"
+          placeholder="Tuliskan spesifikasi akun..."
+          required></textarea>
+
+        <label>LOGIN</label>
+        <input id="login" type="text"
+          placeholder="Contoh: Google / Facebook"
+          required>
+
+        <label>BIND</label>
+        <input id="bind" type="text"
+          placeholder="Status bind akun" required>
+
+        <label>HARGA</label>
+        <input id="harga" type="text"
+          placeholder="Contoh: Rp100.000" required>
+
+        <label>EX / INC</label>
+        <select id="exinc" required>
+          <option value="">Pilih EX / INC</option>
+          <option>EX</option>
+          <option>INC</option>
+        </select>
+
+        <label>NO WHATSAPP KAMU</label>
+        <input id="wa" type="tel"
+          placeholder="08xxxxxxxxxx" required>
+
+        <div class="security-note">
+          ⚠️ Jangan masukkan password, kode OTP,
+          atau informasi rahasia akun ke formulir ini.
+        </div>
+
+        <div class="queue-preview">
+          <small>NOMOR ANTREAN KAMU</small>
+          <h2 id="queueNumber">#---</h2>
+          <p>Nomor dibuat ketika formulir dikirim.</p>
+        </div>
+
+        <button type="submit" class="submit-btn">
+          KIRIM JASPOST KE WHATSAPP ↗
+        </button>
+
+      </form>
+    </div>
+  </section>
+
+  <!-- ATURAN -->
+  <section class="rules-section" id="aturan">
+    <div class="section-heading">
+      <span>PENTING DIPERHATIKAN</span>
+      <h2>ATURAN JASPOST</h2>
+    </div>
+
+    <div class="warning-box">
+      <h3>⚠️ PERHATIAN!</h3>
+      <p>
+        JASPOST DI HAJI AKBAR WAJIB
+        MENGGUNAKAN MC/REKBER HAJI AKBAR
+        SUPAYA TERHINDAR DARI PENIPUAN.
+      </p>
+      <p>
+        BUKAN AKUN ADMIN.
+      </p>
+    </div>
+
+    <div class="admin-box">
+      <div class="admin-logo">HA</div>
+      <div>
+        <small>WHATSAPP MC / REKBER</small>
+        <h3>HAJI AKBAR</h3>
+        <p>083182386351</p>
+      </div>
+      <a href="https://wa.me/6283182386351"
+         target="_blank">HUBUNGI ↗</a>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="footer-logo">HAJI AKBAR</div>
+    <p>PREMIUM JASPOST SERVICE</p>
+    <small>© 2026 HAJI AKBAR. ALL RIGHTS RESERVED.</small>
+  </footer>
+
+  <!-- MUSIK -->
+  <audio id="bgMusic" loop>
+    <source src="musik.mp3" type="audio/mpeg">
+  </audio>
+
+  <button id="musicButton" class="music-button"
+    aria-label="Putar atau hentikan musik">♫</button>
+
+  <script src="script.js"></script>
+</body>
+</html>
